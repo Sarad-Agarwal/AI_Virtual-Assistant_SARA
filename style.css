@@ -1,0 +1,67 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Unlock&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#sara {
+    width: 30vw;
+}
+
+h1 {
+    font-family: "Unlock", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+#name1 {
+    color: rgb(45, 97, 152);
+    font-size: 42px;
+}
+
+#name2 {
+    color: rgb(226, 31, 181);
+    font-size: 42px;
+}
+
+#aura {
+    width: 250px;
+    display: none;
+}
+
+button {
+    cursor: pointer;
+    width: 27vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
+    background: linear-gradient(to right, rgb(45, 97, 152), rgb(226, 31, 181));
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1); /* Increases size slightly */
+    box-shadow: 0px 4px 10px white; /* Adds a shadow to enhance the pop effect */
+    letter-spacing: 1px;
+}
